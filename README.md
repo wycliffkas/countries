@@ -12,7 +12,6 @@ The designs are in JPG static format. This will mean that you'll need to use you
 
 There are no assets for this challenge, as the country flags will be pulled from the [REST Countries API](https://restcountries.com) and you can use an icon font library for the icons.
 
-There is a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
 Your users should be able to:
 
@@ -30,18 +29,6 @@ Your users should be able to:
 -   Correctness: Does the functionality act in sensible, thought-out ways?
 -   Maintainability: Is it written in a clean, maintainable way?
 -   Testing: Is the system adequately tested?
-
-### Deliverables
-
-Make sure to include all source code in the repository.
-
-### CodeSubmit
-
-Please organize, design, test and document your code as if it were going into production - then push your changes to the master branch. After you have pushed your code, you may submit the assignment on the assignment page.
-
-All the best and happy coding,
-
-The MAYD Team
 
 ### Run the application
 - Install [Node.js](https://nodejs.org/en/)
