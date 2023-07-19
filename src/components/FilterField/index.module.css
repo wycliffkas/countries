@@ -1,0 +1,17 @@
+.select {
+	padding: 10px;
+	outline: none;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.select.dark {
+	background-color: hsl(209, 23%, 22%);
+	color: hsl(0, 0%, 100%);
+	border: none;
+}
+
+.select.dark option {
+	background-color: hsl(209, 23%, 22%);
+	color: hsl(0, 0%, 100%);
+}

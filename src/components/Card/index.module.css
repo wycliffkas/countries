@@ -1,0 +1,27 @@
+.gridItem {
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin-top: 20px;
+}
+
+@media (min-width: 1440px) {
+	.gridItem {
+		margin-top: 0;
+	}
+}
+
+.gridItem.dark {
+	background-color: hsl(209, 23%, 22%);
+	color: hsl(0, 0%, 100%);
+}
+
+.countryDetails {
+	margin: 20px 20px 40px;
+}
+
+img {
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+}
