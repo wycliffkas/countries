@@ -1,0 +1,37 @@
+.searchContainer {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.searchContainer.dark {
+	background-color: hsl(209, 23%, 22%);
+	color: hsl(0, 0%, 100%);
+	border: none;
+}
+
+i {
+	margin-right: 5px;
+	color: #888;
+}
+
+.searchInput {
+	flex: 1;
+	border: none;
+	outline: none;
+}
+
+.searchInput.dark {
+	background-color: hsl(209, 23%, 22%);
+	color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 1440px) {
+	.searchContainer {
+		width: 300px;
+		margin-bottom: 5px;
+	}
+}

@@ -1,0 +1,38 @@
+.gridContainer {
+	grid-template-columns: 1fr;
+	font-size: 14px;
+	gap: 30px;
+}
+
+@media (min-width: 1440px) {
+	.gridContainer {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+.container {
+	padding: 40px;
+}
+
+.container.dark {
+  background-color: hsl(207, 26%, 17%);
+  color: hsl(0, 0%, 100%)
+}
+
+.centerText {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.searchWrapper {
+	margin: 10px 0;
+}
+
+@media (min-width: 1440px) {
+	.searchWrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
